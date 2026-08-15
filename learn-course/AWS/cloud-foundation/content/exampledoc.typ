@@ -14,7 +14,9 @@ On the other hand, we denounce with righteous indignation and dislike men who ar
 #blockquote[
   Euler's identity is $e^(pi i) + 1 = 0$. Do you really believe that they charged an armed enemy, or treated their children, their own flesh and blood, so cruelly, without a thought for their own interest or advantage? Such is Schrödinger's equation in @schrodinger:
 
-  $ i ℏ frac(partial, partial t) Psi lr((x comma t)) eq lr([minus frac(ℏ^2, 2 m) frac(partial^2, partial x^2) plus V lr((x comma t))]) Psi lr((x comma t)) $ <schrodinger>
+  $
+    i ℏ frac(partial, partial t) Psi lr((x comma t)) eq lr([minus frac(ℏ^2, 2 m) frac(partial^2, partial x^2) plus V lr((x comma t))]) Psi lr((x comma t))
+  $ <schrodinger>
 
   #blockquote[
     But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
@@ -24,14 +26,14 @@ On the other hand, we denounce with righteous indignation and dislike men who ar
 But I must explain to you how all this mistaken idea of reprobating pleasure and extolling pain arose. Increase ease-of-use to where `variable` and `print()` shall be of use.
 
 #figure(caption: [Example `python` code printing text.])[
-```python
-if a != b:
-  print("Hello world!")
-else if a == b:
-  print("Goodbye world!")
-else:
-  print("This is a long sentence where I ramble until I get 80 characters here.")
-```
+  ```python
+  if a != b:
+    print("Hello world!")
+  else if a == b:
+    print("Goodbye world!")
+  else:
+    print("This is a long sentence where I ramble until I get 80 characters here.")
+  ```
 ] <py-test>
 
 
@@ -51,15 +53,17 @@ To take a trivial example, which of us ever undertakes laborious physical exerci
 
 #definition(
   "Stokes' theorem",
-  footer: "Information extracted from a well-known public encyclopedia"
+  footer: "Information extracted from a well-known public encyclopedia",
 )[
   Let $Sigma$ be a smooth oriented surface in $RR^3$ with boundary $partial Sigma
   equiv Gamma$. If a vector field $iboxed(bold(F)(x,y,z))=(F_x (x,y,z), F_y (x,y,z),
-  F_z (x,y,z))$ is defined and has continuous first order partial derivatives
+    F_z (x,y,z))$ is defined and has continuous first order partial derivatives
   in a region containing $Sigma$, then
 
-  $ integral.double_Sigma (bold(nabla) times bold(F)) dot bold(Sigma) =
-  dboxed(integral.cont_(partial Sigma) bold(F) dot dif bold(Gamma)) $ 
+  $
+    integral.double_Sigma (bold(nabla) times bold(F)) dot bold(Sigma) =
+    dboxed(integral.cont_(partial Sigma) bold(F) dot dif bold(Gamma))
+  $
 ] <stokes>
 
 #lorem(30)

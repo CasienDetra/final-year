@@ -1,0 +1,15 @@
+D:\PathofDev\final-year\DogApp\bin\Debug\net9.0\DogApp.exe
+D:\PathofDev\final-year\DogApp\bin\Debug\net9.0\DogApp.deps.json
+D:\PathofDev\final-year\DogApp\bin\Debug\net9.0\DogApp.runtimeconfig.json
+D:\PathofDev\final-year\DogApp\bin\Debug\net9.0\DogApp.dll
+D:\PathofDev\final-year\DogApp\bin\Debug\net9.0\DogApp.pdb
+D:\PathofDev\final-year\DogApp\obj\Debug\net9.0\DogApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\PathofDev\final-year\DogApp\obj\Debug\net9.0\DogApp.AssemblyInfoInputs.cache
+D:\PathofDev\final-year\DogApp\obj\Debug\net9.0\DogApp.AssemblyInfo.cs
+D:\PathofDev\final-year\DogApp\obj\Debug\net9.0\DogApp.csproj.CoreCompileInputs.cache
+D:\PathofDev\final-year\DogApp\obj\Debug\net9.0\DogApp.sourcelink.json
+D:\PathofDev\final-year\DogApp\obj\Debug\net9.0\DogApp.dll
+D:\PathofDev\final-year\DogApp\obj\Debug\net9.0\refint\DogApp.dll
+D:\PathofDev\final-year\DogApp\obj\Debug\net9.0\DogApp.pdb
+D:\PathofDev\final-year\DogApp\obj\Debug\net9.0\DogApp.genruntimeconfig.cache
+D:\PathofDev\final-year\DogApp\obj\Debug\net9.0\ref\DogApp.dll
