@@ -178,30 +178,20 @@ void patternI() {
 }
 
 void soultion() {
-  print('Pattern (a):');
-  patternA();
+  final patterns = {
+    'a': patternA,
+    'b': patternB,
+    'c': patternC,
+    'd': patternD,
+    'e': patternE,
+    'f': patternF,
+    'g': patternG,
+    'h': patternH,
+    'i': patternI,
+  };
 
-  print('\nPattern (b):');
-  patternB();
-
-  print('\nPattern (c):');
-  patternC();
-
-  print('\nPattern (d):');
-  patternD();
-
-  print('\nPattern (e):');
-  patternE();
-
-  print('\nPattern (f):');
-  patternF();
-
-  print('\nPattern (g):');
-  patternG();
-
-  print('\nPattern (h):');
-  patternH();
-
-  print('\nPattern (i):');
-  patternI();
+  for (final i in patterns.entries) {
+    print('\nPattern (${i.key}):');
+    i.value();
+  }
 }
