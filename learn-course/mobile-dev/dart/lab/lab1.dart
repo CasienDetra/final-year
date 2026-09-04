@@ -30,6 +30,7 @@ void patternB() {
 
 void patternC() {
   for (int i = 0; i < 8; i++) {
+    // push the row to the right with spaces
     for (int j = 0; j < i; j++) {
       stdout.write('  ');
     }
@@ -45,6 +46,7 @@ void patternC() {
 
 void patternD() {
   for (int i = 0; i < 8; i++) {
+    // push the row to the right with spaces
     for (int j = 0; j < 7 - i; j++) {
       stdout.write('  ');
     }
@@ -62,6 +64,7 @@ void patternE() {
   int n = 7;
   for (int i = 0; i < n; i++) {
     for (int j = 0; j < n; j++) {
+      // only draw # on the border,
       if (i == 0 || i == n - 1 || j == 0 || j == n - 1) {
         if (j == n - 1) {
           print('#');
@@ -133,6 +136,7 @@ void patternH() {
       }
     } else {
       int dist = i < mid ? i : n - 1 - i;
+      // push with spaces
       for (int j = 0; j < dist; j++) {
         stdout.write('  ');
       }
@@ -154,6 +158,7 @@ void patternI() {
   int n = 7;
   for (int i = 0; i < n; i++) {
     for (int j = 0; j < n; j++) {
+      // outer border
       if (i == 0 || i == n - 1 || j == 0 || j == n - 1) {
         if (j == n - 1) {
           print('#');
@@ -167,6 +172,7 @@ void patternI() {
           stdout.write('# ');
         }
       } else {
+        // empty space inside
         if (j == n - 1) {
           print(' ');
         } else {

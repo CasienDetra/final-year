@@ -1,6 +1,10 @@
 import 'dart:io';
 
 void main() {
+  solution();
+}
+
+void solution() {
   stdout.write('Enter number of subjects: ');
   int n = int.parse(stdin.readLineSync()!);
 
@@ -10,6 +14,7 @@ void main() {
     total += double.parse(stdin.readLineSync()!);
   }
 
+  // find the average
   double percentage = total / n;
 
   String grade;
@@ -25,6 +30,7 @@ void main() {
     grade = 'Fail';
   }
 
+  // results
   print('\nTotal Marks: ${total.toStringAsFixed(2)}');
   print('Percentage: ${percentage.toStringAsFixed(2)}%');
   print('Grade: $grade');

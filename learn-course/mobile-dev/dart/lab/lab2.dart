@@ -14,6 +14,7 @@ void solution() {
   stdout.write('Enter units consumed: ');
   int units = int.parse(stdin.readLineSync()!);
 
+  // set price per unit
   double chargePerUnit;
   if (units < 200) {
     chargePerUnit = 500;
@@ -25,6 +26,7 @@ void solution() {
     chargePerUnit = 200;
   }
 
+  // store total amount
   double amount = units * chargePerUnit;
 
   if (amount > 500000) {
@@ -35,6 +37,7 @@ void solution() {
     amount = 1000;
   }
 
+  // print the bill
   print('\n--- Electricity Bill ---');
   print('Customer ID: $id');
   print('Customer Name: $name');
